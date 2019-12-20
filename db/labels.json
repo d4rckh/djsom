@@ -6,5 +6,9 @@
     {
         "name": "MER Recordings",
         "id": "merrecordings"
+    },
+    {
+        "name": "Play Me Records",
+        "id": "playmerecords"
     }
 ]

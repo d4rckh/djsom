@@ -1,0 +1,47 @@
+{
+    "name": "Not Sorry",
+    "id": "notsorry",
+    "bio": "None",
+    "albums": [
+        {
+            "name": "Like This",
+            "songs": [
+                {
+                    "name": "Like this",
+                    "credits": {
+                        "Performed by": "not sorry, Wild Boyz!",
+                        "Written by": "-",
+                        "Produced by": "-"
+                    },
+                    "label": "playmerecords",
+                    "id": "likethis",
+                    "listen": {
+                        "spotify": "1caiTJ5rvetBED5z8oZtyy"
+                    }
+                }
+            ],
+            "type": "single",
+            "id": "likethis"
+        },
+        {
+            "name": "LD50 VIP",
+            "songs": [
+                {
+                    "name": "LD50 - VIP",
+                    "credits": {
+                        "Performed by": "not sorry",
+                        "Written by": "-",
+                        "Produced by": "-"
+                    },
+                    "label": "playmerecords",
+                    "id": "ld50vip",
+                    "listen": {
+                        "spotify": "1OeOZw1bIc5xWodBotRIkR"
+                    }
+                }
+            ],
+            "id": "ld50vip",
+            "type": "single"
+        }
+    ]
+}
