@@ -1,0 +1,27 @@
+{
+    "name": "Fabian Mazur",
+    "id": "fabianmazur",
+    "bio": "Music producer who has become known for hit singles like \"Lonely Street\" and \"Sun Goes Down.\" He has also collaborated with numerous other popular artists including Jessica Jarrell, Greyson Chance, and Snavs. ",
+    "albums": [
+        {
+          "name": "Sun Goes Down",
+          "songs": [
+            {
+              "name": "Sun Goes Down",
+              "credits": {
+                "Performed by": "Fabian Mazur",
+                "Written by": "Fabian Mazur",
+                "Produced By": "Fabian Mazur"
+              },
+              "label": "2017lowlyplace",
+              "id": "sungoesdown",
+              "listen": {
+                  "spotify": "5Yfpt94CRzfSFrDtNXAW1X"
+              }
+            }
+          ],
+          "type": "single",
+          "id": "sungoesdown"
+        }
+      ]
+}

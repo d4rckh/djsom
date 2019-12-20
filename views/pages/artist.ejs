@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ('../partials/head') %>
+</head>
+<body class="container">
+
+<header>
+    <%- include ('../partials/header') %>
+</header>
+
+<main>
+    <h2 class="title white">djsom <span>( <b>dj</b>'s <b>s</b>ource <b>o</b>f <b>m</b>usic  )</span> - <b><%= artist.name %></b> </h2><br>
+
+    <h4 class="white">Bio</h4>
+    <p class="white"><%= artist.bio %></p><br>
+
+    <table border="1">
+        <tr class="white">
+            <th>Album Name</th>
+            <th>Album Type</th>
+            <th>Album Songs Count</th>
+            <th>View Album</th>
+        </tr>
+        <% artist.albums.forEach((album) => { %>
+                <tr class="white">
+                    <td><%= album.name %></td>
+                    <td><%= album.type %></td>
+                    <td><%= album.songs.size %></td>
+                    <td><a href="/artist/<%= artist.id %>/album/<%= album.id %>">View album</a></td>
+                </tr>
+            <% }) %>
+    </table>
+</main>
+
+<footer><br>
+    <%- include ('../partials/footer') %>
+</footer>
+
+</body>
+</html>

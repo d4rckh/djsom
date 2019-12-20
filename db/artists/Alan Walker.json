@@ -1,0 +1,27 @@
+{
+    "name": "Alan Walker",
+    "id": "alanwalker",
+    "bio": "None",
+    "albums": [
+        {
+            "name": "On My Way",
+            "songs": [
+                {
+                    "name": "On My Way",
+                    "credits": {
+                        "Performed by": "Alan Walker, Farruko, Sabrina Carpenter",
+                        "Written by": "Julia Karlsson, Gunnar Greve, Franklin Jovani Martinez, Marcos G. Pérez, Fredrik Borch Olsen, Jesper Borgen, Carlos Efrén Reyes Rosado, Sabrina Carpenter, Alan Walker, Øyvind Sauvik, Anders Frøen, Anton Rundberg",
+                        "Produced by": "Alan Walker, Big Fred"
+                    },
+                    "label": "merrecordings",
+                    "id": "onmyway",
+                    "listen": {
+                        "spotify": "4n7jnSxVLd8QioibtTDBDq"
+                    }
+                }
+            ],
+            "type": "single",
+            "id": "onmyway"
+        }
+    ]
+}

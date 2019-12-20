@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ('../partials/head') %>
+</head>
+<body class="container">
+
+<header>
+    <%- include ('../partials/header') %>
+</header>
+
+<main>
+    <h2 class="white title">djsom <span>( <b>dj</b>'s <b>s</b>ource <b>o</b>f <b>m</b>usic  )</span> - Song <b><%= song.name %></b> by <b><%= artist.name %></b></h2><br>
+
+    <h4 class="white">Artist Bio</h4>
+    <p class="white"><%= artist.bio %></p><br>
+
+    <h4 class="white">Listen</h4>
+    <div>
+        <% if(song.listen.spotify) {%>
+            <span>
+                    <b class="white">on spotify</b>    
+                </span><br>
+                <iframe src="https://open.spotify.com/embed/track/<%= song.listen.spotify %>" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                
+            <%}%>
+        <br><small class="white">Some audio players may not have volume control. Play with caution</small>
+    </div>
+
+    <h4 class="white">Song Credits</h4>
+    <table border="1">
+        <% Object.keys(song.credits).forEach((credit) => { %>
+                <tr>
+                    <td class="white"><%= credit %></td>
+                    <td class="white"><%= song.credits[credit] %></td>
+                </tr>
+            <% }) %>
+    </table>
+</main>
+
+<footer><br>
+    <%- include ('../partials/footer') %>
+</footer>
+
+</body>
+</html>
